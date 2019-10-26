@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="Pinball Scores">
+    <meta name="keywords" content="pinball, scores">
+    <meta name="author" content="Alex Hedley">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <title>Dead Good At Pinball</title>
+  </head>
+  <body ng-app="myApp">
+        
+    <div ng-controller="myController">
+
+        <h1>Pinball</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div
+                        ng-repeat="event in events"
+                        ng-click="loadEvent(event)"
+                        ng-class="{'active':selectedEvent === event}"
+                    >
+                        {{event.date}} - 
+                        {{event.winner}}
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div 
+                        ng-repeat="game in selectedEvent.games"
+                        ng-click="loadGame(game)"
+                        ng-class="{'active':selectedGame === game}"
+                    >
+                        {{game.table}} - 
+                        {{game.winner}}
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div 
+                        ng-repeat="stat in selectedGame.stats"
+                    >
+                        <span class="score">{{stat.player}} {{stat.score}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- <script src="js/jquery-ui.1.12.1.min.js"></script> -->
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery.pretty-text-diff.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+</html>

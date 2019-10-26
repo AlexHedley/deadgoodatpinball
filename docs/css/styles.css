@@ -1,0 +1,15 @@
+body {
+    background-color: #B0B0B0;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+    /* background-color: red; */
+}
+
+.score {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+}
