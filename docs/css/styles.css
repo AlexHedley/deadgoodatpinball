@@ -1,37 +1,15 @@
-/* DIFF */
-/* ins {
-    background-color: #c6ffc6;
-    text-decoration: none;
-}
-del {
-    background-color: #ffc6c6;
-} */
-
-.match,
-.textdiff span {
-    color: gray;
+body {
+    background-color: #B0B0B0;
 }
 
-.ins,
-ins {
-    color: black;
-    background: #bbffbb;
+.active {
+    color: red;
+    font-weight: bold;
+    /* background-color: red; */
 }
 
-.del,
-del {
-    color: black;
-    background: #ffbbbb;
+.score {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
 }
-
-.noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* PivotTable */
-.pvtTotal, .pvtTotalLabel, .pvtGrandTotal {display: none}

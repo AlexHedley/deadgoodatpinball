@@ -2,19 +2,97 @@
     "events": [
         {
             "date" : "2019-10-18",
-            "table" : "The Beatles",
-            "stats" : [
+            "winner" : "Carlin",
+            "games" : [
                 {
-                    "player" : "Alex",
-                    "score" : "78,800"
+                    "table" : "The Beatles",
+                    "winner" : "Jonny",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "78,800"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "85,580"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "55,180"
+                        }
+                    ]
                 },
                 {
-                    "player" : "Jonny",
-                    "score" : "85,580"
+                    "table" : "World Poker Tour",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "1,388,290"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "2,083,700"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "4,801,740"
+                        }
+                    ]
                 },
                 {
-                    "player" : "Carlin",
-                    "score" : "55,180"
+                    "table" : "Ghostbusters",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "807,900"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "992,474"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "31,585,880"
+                        }
+                    ]
+                },
+                {
+                    "table" : "Waterworld",
+                    "winner" : "Jonny",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "155,893,510"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "385,795,040"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "121,064,620"
+                        }
+                    ]
+                },
+                {
+                    "table" : "The Addams Family",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "14,785,190"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "656,180"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "18,532,680"
+                        }
+                    ]
                 }
             ]
         }
