@@ -1,0 +1,37 @@
+/* DIFF */
+/* ins {
+    background-color: #c6ffc6;
+    text-decoration: none;
+}
+del {
+    background-color: #ffc6c6;
+} */
+
+.match,
+.textdiff span {
+    color: gray;
+}
+
+.ins,
+ins {
+    color: black;
+    background: #bbffbb;
+}
+
+.del,
+del {
+    color: black;
+    background: #ffbbbb;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* PivotTable */
+.pvtTotal, .pvtTotalLabel, .pvtGrandTotal {display: none}
