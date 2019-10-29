@@ -37,4 +37,4 @@ Winner - **Carlin**
 
 ## Trophy
 
-<img src="https://github.com/AlexHedley/deadgoodatpinball/blob/master/images/trophy.png?raw=true"  height="200" alt="Trophy" />
+<img src="https://github.com/AlexHedley/deadgoodatpinball/blob/master/docs/images/trophy.png?raw=true"  height="200" alt="Trophy" />
