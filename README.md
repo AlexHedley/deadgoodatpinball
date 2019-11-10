@@ -32,3 +32,9 @@ Winner - **Carlin**
 | Player | ALEX | JONNY | CARLIN |
 |--------|------|-------|--------|
 |        |      |       | 1      |
+
+---
+
+## Trophy
+
+<img src="https://github.com/AlexHedley/deadgoodatpinball/blob/master/docs/images/trophy.png?raw=true"  height="200" alt="Trophy" />
