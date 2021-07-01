@@ -95,6 +95,84 @@
                     ]
                 }
             ]
+        },
+        {
+            "date" : "2021-06-18",
+            "winner" : "Carlin",
+            "games" : [
+                {
+                    "table" : "Blade Runner 2049",
+                    "winner" : "Jonny",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "1,085,200"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "1,099,320"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "405,270"
+                        }
+                    ]
+                },
+                {
+                    "table" : "SkyLab",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "64,070"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "51,560"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "79,920"
+                        }
+                    ]
+                },
+                {
+                    "table" : "SkyLab",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "57,170"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "58,210"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "64,960"
+                        }
+                    ]
+                },
+                {
+                    "table" : "Masters of the Universe",
+                    "winner" : "Carlin",
+                    "stats" : [
+                        {
+                            "player" : "Alex",
+                            "score" : "524,500"
+                        },
+                        {
+                            "player" : "Jonny",
+                            "score" : "1,346,500"
+                        },
+                        {
+                            "player" : "Carlin",
+                            "score" : "2,245,500"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
