@@ -38,3 +38,9 @@ Winner - **Carlin**
 ## Trophy
 
 <img src="https://github.com/AlexHedley/deadgoodatpinball/blob/master/docs/images/trophy.png?raw=true"  height="200" alt="Trophy" />
+
+## Run
+
+`cd docs`
+
+`python -m http.server -b 127.0.0.1`
